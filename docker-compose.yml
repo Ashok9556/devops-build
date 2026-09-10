@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   web:
-    image: ashok9556/dev:${TAG:-latest}
+    image: ashok9951/dev:latest
     build: .
     container_name: devops-app
     ports:
